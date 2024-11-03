@@ -1,0 +1,2 @@
+
+The error you're seeing indicates that the object g (the graph data) hasn't been defined in your R environment. To create g, you’ll need to load or construct a graph object, typically with the igraph package. Here’s an example of how to create a sample graph and convert it to a tbl_graph object, which can then be used with ggraph:
